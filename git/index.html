@@ -4,11 +4,25 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Git</title>
 
 		<link rel="stylesheet" href="../reveal.js/css/reveal.css">
 		<link rel="stylesheet" href="../reveal.js/css/theme/black.css">
 
+    <style>
+      .reveal h1,
+      .reveal h2,
+      .reveal h3,
+      .reveal h4,
+      .reveal h5,
+      .reveal h6 {
+        text-transform: none;
+      }
+      .reveal pre {
+        margin: 0;
+        width: 100%;
+      }
+    </style>
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="../reveal.js/lib/css/zenburn.css">
 
@@ -24,8 +38,13 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+        <section data-markdown='title.md' class="center"></section>
+        <section data-markdown='getting_started.md' style="text-align:left;"></section>
+        <section data-markdown='basic_usage.md' class="center"></section>
+        <section data-markdown='basic_usage_section1.md' style="text-align:left;"></section>
+        <section data-markdown='basic_usage_section2.md' style="text-align:left;"></section>
+        <section data-markdown='basic_usage_section3.md' style="text-align:left;"></section>
+        <section data-markdown='resources.md' style="text-align:left;"></section>
 			</div>
 		</div>
 
@@ -37,6 +56,7 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+			  center: false,
 				dependencies: [
 					{ src: '../reveal.js/plugin/markdown/marked.js' },
 					{ src: '../reveal.js/plugin/markdown/markdown.js' },
