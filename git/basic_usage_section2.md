@@ -4,12 +4,12 @@
 Staging files
 ```bash
 ~$ git add <filepath> [<filepath> <filepath>...]
+~$ git add . (eq. git add -A)
 ```
 
-Staging all changes to files
+Commit
 ```bash
-~$ git add .
-~$ git add -A
+~$ git commit -m ''
 ```
 
 Undoing file changes
