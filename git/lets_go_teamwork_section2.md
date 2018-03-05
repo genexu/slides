@@ -8,7 +8,7 @@ Pull
 ```
 Pull Rebase
 ```bash
-~$ git pull --rebale
+~$ git pull --rebase
 # Equal
 ~$ git fetch && git rebase
 ```
