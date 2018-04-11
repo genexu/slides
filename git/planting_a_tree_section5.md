@@ -3,7 +3,7 @@
 
 ```
 # Rebase the commits whose parent is branchA upto branchB onto <new parent>.
-~$ git rebase --onto master A2 B2
+~$ git rebase --onto master A1 B2
 
 Before
 M1---M2---M3---M4 (master)
